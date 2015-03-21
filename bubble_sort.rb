@@ -26,3 +26,7 @@ end
 test_arr = Array.new(2000).map { rand(-100000..100000) }
 
 print bubble_sort(test_arr)
+
+# Bubble sort which takes a block to determine the sorting method.
+def bubble_sort_by(array)
+end
